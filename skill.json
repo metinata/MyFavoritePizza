@@ -1,0 +1,28 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Order my favorite pizza skill",
+          "examplePhrases": [
+            "Alexa order my favorite pizza"
+          ],
+          "name": "myfavoritepizza",
+          "description": "Order pizza from yemek sepeti"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "DELIVERY_AND_TAKEOUT",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda/custom"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
